@@ -9,6 +9,9 @@ public class threadViaRunnable {
 
 
 // Implements Runnable Interface (Development Preferred)
+/*
+   This is preferred because in java, we can only extend one class at a time
+*/
 
 class MyTask implements Runnable {
     public void run(){
